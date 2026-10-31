@@ -1,28 +1,28 @@
 class Claudit < Formula
   desc "Terminal UI that shows Claude Code's agents at work in a make-believe IDE"
   homepage "https://github.com/pixelbender/claudit"
-  version "0.3.0"
+  version "0.4.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/pixelbender/claudit/releases/download/v0.3.0/claudit-0.3.0-darwin-arm64.tar.gz"
-      sha256 "1ce76f42d2ffc8df027fe25e6bfe600aeeab0bc7fa91307793e4e3967d497ada"
+      url "https://github.com/pixelbender/claudit/releases/download/v0.4.0/claudit-0.4.0-darwin-arm64.tar.gz"
+      sha256 "502ebdbc172b32ba69d038d59105e323d3792d224f64bb17085bf3547703ea8c"
     end
     on_intel do
-      url "https://github.com/pixelbender/claudit/releases/download/v0.3.0/claudit-0.3.0-darwin-amd64.tar.gz"
-      sha256 "37ae35c0f274f49e97961d30319f2f283586c34e81b9698e1c2bf2ded081388e"
+      url "https://github.com/pixelbender/claudit/releases/download/v0.4.0/claudit-0.4.0-darwin-amd64.tar.gz"
+      sha256 "cbaceea38a6015e021ca1be0b6daae12811ce2eaf4201b278772fd633c705cc9"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/pixelbender/claudit/releases/download/v0.3.0/claudit-0.3.0-linux-arm64.tar.gz"
-      sha256 "63dd36614b9b79b084ec4a73dc7d1a5d65d2433c04d2097a25ef53d4c3110d67"
+      url "https://github.com/pixelbender/claudit/releases/download/v0.4.0/claudit-0.4.0-linux-arm64.tar.gz"
+      sha256 "c58b0feb82fb8c074b65742c42b4798c4638e3b3647acdc12e8d93d828b23b10"
     end
     on_intel do
-      url "https://github.com/pixelbender/claudit/releases/download/v0.3.0/claudit-0.3.0-linux-amd64.tar.gz"
-      sha256 "ab252363491609f72bf10b4c760067e8bef2e422e6f51f37d5b19a59e47cda76"
+      url "https://github.com/pixelbender/claudit/releases/download/v0.4.0/claudit-0.4.0-linux-amd64.tar.gz"
+      sha256 "8077ef84fe10618e4bf9f1a423c000194cb55002c79e1a6c0e5cf4504065f72b"
     end
   end
 
